@@ -142,7 +142,7 @@ button {
   justify-content: center;
   gap: 0.625rem;
   padding: 0.875rem 1.3rem;
-  border-radius: 999px;
+  border-radius: 9px;
   color: white;
   font-weight: 700;
   box-shadow:
@@ -168,7 +168,7 @@ button {
   justify-content: center;
   gap: 0.625rem;
   padding: 0.875rem 1.3rem;
-  border-radius: 999px;
+  border-radius: 9px;
   font-weight: 700;
   color: rgb(var(--fg));
   border: 1px solid rgba(var(--line), 0.18);
