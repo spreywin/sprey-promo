@@ -9,10 +9,10 @@
   --line: 120 145 131;
   --line-soft: 218 229 221;
   --shadow: 18 36 28;
-  --primary: 54 147 105;
-  --secondary: 54 147 105;
-  --accent: 212 175 55;
-  --success: 34 139 88;
+  --primary: 212 175 55;
+  --secondary: 184 134 11;
+  --accent: 34 197 94;
+  --success: 34 197 94;
   --warning: 196 145 24;
   --danger: 220 76 76;
   --noise-opacity: 0.035;
@@ -29,10 +29,10 @@
   --line: 76 112 94;
   --line-soft: 39 68 56;
   --shadow: 2 18 12;
-  --primary: 54 147 105;
-  --secondary: 54 147 105;
-  --accent: 212 175 55;
-  --success: 52 168 96;
+  --primary: 212 175 55;
+  --secondary: 184 134 11;
+  --accent: 34 197 94;
+  --success: 34 197 94;
   --warning: 212 175 55;
   --danger: 239 96 96;
   --noise-opacity: 0.06;
@@ -187,7 +187,7 @@ button {
   align-items: center;
   gap: 0.5rem;
   padding: 0.7rem 1rem;
-  border-radius: 999px;
+  border-radius: 99px;
   font-weight: 600;
   color: rgb(var(--fg));
 }
@@ -551,7 +551,7 @@ button {
 .status-dot {
   width: 0.625rem;
   height: 0.625rem;
-  border-radius: 999px;
+  border-radius: 99px;
   box-shadow: 0 0 0 6px rgba(34, 139, 88, 0.12);
   background: rgb(var(--success));
 }
@@ -593,7 +593,7 @@ button {
   width: 80%;
   height: 80%;
   border: 1px solid rgba(11, 143, 90, 0.16);
-  border-radius: 999px;
+  border-radius: 99px;
 }
 
 .light-ring::after {
