@@ -53,6 +53,13 @@ function initMobileMenu() {
     toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
     menu.classList.toggle("hidden", expanded);
   });
+  
+  menu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      menu.classList.add("hidden");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
 }
 
 function initAccordion() {
