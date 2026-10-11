@@ -692,5 +692,5 @@ button {
 
 /* Увеличенная тень активного значка языка */
 .gt_container-kjaaik .gsatelites a[style*="display: inline"] {
-box-shadow: 0 0 69px 3px rgba(255, 153, 0, 0.45) !important;
+box-shadow: 0 0 69px 3px rgba(255, 153, 0, 0.69) !important;
 }
