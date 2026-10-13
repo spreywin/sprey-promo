@@ -3,20 +3,20 @@
   <circle cx="217" cy="117" r="220" fill="#6366F1" fill-opacity="0.22"/>
   <circle cx="1045" cy="184" r="190" fill="#06B6D4" fill-opacity="0.16"/>
   <circle cx="802" cy="618" r="230" fill="#8B5CF6" fill-opacity="0.18"/>
-  <rect x="70" y="72" width="1060" height="486" rx="28" fill="url(#paint0_linear_2_4)" fill-opacity="0.08" stroke="url(#paint1_linear_2_4)"/>
+  <rect x="70" y="72" width="1060" height="486" rx="28" fill="url(#paint0_linear_2_4)" fill-opacity="0.08" stroke="url(#paint1_linear_2_4)"/>s
   <g filter="url(#filter0_d_2_4)">
     <rect x="120" y="135" width="130" height="130" rx="32" fill="#0F172A"/>
-    <path d="M158 224V174H196.4C206.8 174 214 180.4 214 189.6C214 198.7 206.8 205.2 196.4 205.2H168.6V224H158ZM168.6 196.1H194.5C200.1 196.1 204 193.3 204 189.6C204 185.8 200.1 183.1 194.5 183.1H168.6V196.1Z" fill="white"/>
+    <text>tt</text>
   </g>
   <text x="296" y="236" fill="white" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="74" font-weight="800" letter-spacing="-2.4">
-    KA-Launchly
+    • Sprey Processing
   </text>
   <text x="298" y="312" fill="#CBD5E1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="32" font-weight="500">
-    Premium Startup &amp; SaaS Website Template
+    Built for direct, non-custodial crypto payments
   </text>
   <rect x="296" y="362" width="640" height="68" rx="34" fill="url(#paint2_linear_2_4)"/>
   <text x="332" y="406" fill="white" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="26" font-weight="700">
-    30+ Pages • Dark/Light Mode • TailwindCSS • Vanilla JS
+    Crypto Payments ₿ Your Way
   </text>
   <rect x="298" y="470" width="186" height="16" rx="8" fill="#334155"/>
   <rect x="298" y="505" width="410" height="16" rx="8" fill="#1E293B"/>
