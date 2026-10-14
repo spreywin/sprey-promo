@@ -1,9 +1,7 @@
 {
-  "name": "ka-launchly",
+  "name": "sprey-promo",
   "private": true,
   "version": "1.0.0",
-  "description": "KA-Launchly premium startup and SaaS website template",
-  "scripts": {
-    "build": "node scripts/build-site.mjs"
-  }
+  "description": "Sprey.Win promotional website for Sprey Processing and Sprey Lab",
+  "license": "SEE LICENSE IN LICENSE"
 }
