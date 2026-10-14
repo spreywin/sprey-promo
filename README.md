@@ -1,222 +1,119 @@
-# KA-Launchly – Startup & SaaS Website Template
+# Sprey Promo
 
-KA-Launchly is a modern **Startup & SaaS website template** designed for technology startups, SaaS platforms, AI tools and digital products.
-It provides a clean and premium user interface with a fully responsive layout and a scalable component system.
+**The public website of the Sprey ecosystem.**
 
-Built with **HTML5, TailwindCSS and Vanilla JavaScript**, KA-Launchly is lightweight, easy to customize and suitable for modern product websites.
+[Website](https://www.sprey.win/) · [Processing](https://pay.sprey.win/) · [Documentation](https://docs.sprey.win/) · [GitHub](https://github.com/spreywin/sprey-promo)
 
----
-![License](https://img.shields.io/badge/license-Free-blue)
-![Version](https://img.shields.io/badge/version-1.0-green)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-blue)
+## Overview
 
----
+Sprey Promo is the public website for the Sprey ecosystem. It introduces our products, explains their purpose, and connects visitors with our services and documentation.
 
-## 🚀 Live Demo
+Our core product is **Sprey Processing**, cryptocurrency payment infrastructure built on BTCPay Server.
 
-**Preview the template:**
+**Crypto Payments. Your Funds. Your Control.**
 
-https://demo.kodatolye.com.tr/ka-launchly/
+The project is developed as a lightweight website, with its content, design, and functionality maintained in this repository.
 
----
+## Sprey Ecosystem
 
-## 📸 Screenshot
+| Resource | Purpose |
+|---|---|
+| [Sprey Promo](https://www.sprey.win/) | Public website |
+| [Sprey Processing](https://pay.sprey.win/) | Cryptocurrency payment service |
+| [Registration](https://pay.sprey.win/register) | Free account registration |
+| [Sprey Docs](https://docs.sprey.win/) | Documentation and technical resources |
+| [Sprey Store](https://sprey.win/store) | Store and additional offerings |
 
-![KA-Launchly Preview](screenshot/preview.png)
+**Sprey Lab** is a separate experimental direction for prototypes and new product ideas. It is not the core Processing service.
 
----
+## Technology
 
-## ✨ Features
+The website uses:
 
-• Modern Startup & SaaS Design
-• 30+ Ready HTML Pages
-• Fully Responsive Layout
-• Dark & Light Mode Support
-• TailwindCSS Based UI System
-• Clean and Well-Structured Code
-• SEO Friendly HTML Structure
-• Fast Loading & Optimized Performance
-• Reusable UI Components
-• Pricing Tables
-• Testimonials Sections
-• FAQ (Accordion) Components
-• Form & Input Components
-• Sticky Navigation
-• Smooth Scroll Animations
-• Hover Micro Interactions
-• Feature Grid Sections
-• Product Showcase Layouts
-• Integration Sections
-• Blog Pages
-• Documentation Pages
-• Authentication Pages (Login / Register)
-• 404 & Utility Pages
-• Easy Customization
-• Framework Independent Structure
+- HTML5
+- CSS
+- JavaScript
+- Tailwind CSS via CDN
+- Google Fonts
+- A third-party translation widget
 
----
+The project is served as a static website. Its current implementation and dependencies should be checked in the source files rather than inferred from the original template.
 
-## 📄 Included Pages
+## Project Structure
 
-KA-Launchly includes **30+ ready HTML pages**.
+```text
+sprey-promo/
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── img/
+│   │   ├── brand.svg
+│   │   ├── favicon.svg
+│   │   ├── logo-mark.svg
+│   │   ├── og-cover.png
+│   │   └── og-cover.svg
+│   └── js/
+│       └── main.js
+├── screenshot/
+│   └── preview.png
+├── index.html
+├── package.json
+└── README.md
+```
 
-### Landing Pages
+## Deployment
 
-• Home Landing
-• Startup Landing
-• SaaS Landing
-• AI Product Landing
-• Mobile App Landing
+The production website is hosted on Cloudflare Pages.
 
-### Product Pages
+- **GitHub repository:** [spreywin/sprey-promo](https://github.com/spreywin/sprey-promo)
+- **Production branch:** `main`
+- **Production website:** [www.sprey.win](https://www.sprey.win/)
 
-• Features Page
-• Product Overview
-• Integrations Page
-• Use Cases Page
-• Roadmap Page
+Changes pushed to the connected production branch are deployed through the Cloudflare Pages integration.
 
-### Pricing
+### Update workflow
 
-• Pricing Page
-• Pricing Comparison
-• Pricing FAQ
+1. Edit the required files in the local project.
+2. Review the changes and check the affected website sections.
+3. Check the Git working tree.
+4. Commit and push the intended changes.
+5. Confirm the Cloudflare deployment succeeds and inspect the live site when appropriate.
 
-### Blog
+Example PowerShell commands:
 
-• Blog List
-• Blog Grid
-• Blog Article
+```powershell
+git status
+git add README.md
+git commit -m "Update Sprey Promo documentation"
+git push origin main
+```
 
-### Documentation
+Run the commands from the local project directory. Review `git status` before committing.
 
-• Docs Home
-• Getting Started
-• API Documentation
-• Changelog
+No local build command is documented here because the current `package.json` references a build script that is no longer present in the repository.
 
-### Authentication
+## Maintenance Principles
 
-• Login Page
-• Register Page
-• Forgot Password
-• Reset Password
+- Keep the content consistent with the actual Sprey products.
+- Use English as the default website language.
+- Keep navigation and links aligned with the current ecosystem.
+- Remove obsolete template content and unused files when appropriate.
+- Keep the website responsive and verify meaningful changes.
+- Update this README when the project structure or deployment workflow changes.
 
-### Company Pages
+## Original Template and Third-Party Rights
 
-• About Page
-• Careers Page
-• Contact Page
-• Support Page
+The project originated from the [KA-Launchly startup template](https://github.com/Kod-Atolye/ka-launchly-startup-template) by Kod Atölye and has been adapted for Sprey.
 
-### Utility Pages
+The original repository does not declare a GitHub license or include a `LICENSE` file. Review the original author's terms and obtain clarification where necessary before redistributing template-derived materials.
 
-• 404 Page
-• Maintenance Page
+Third-party libraries, fonts, images, and services may be subject to their own terms.
 
----
+## Links
 
-## 🧰 Technologies Used
-
-HTML5
-TailwindCSS
-Vanilla JavaScript
-Alpine.js
-Swiper.js
-Chart.js
-Font Awesome
-Google Fonts (Inter / Plus Jakarta Sans)
-
----
-
-## 📁 Project Structure
-
-ka-launchly/
-
-assets/
-  css/
-  js/
-  img/
-
-pages/
-  blog/
-  docs/
-  auth/
-
-index.html
-README.md
-LICENSE
-
----
-
-## ⚙️ Customization
-
-KA-Launchly is designed with a **clean and developer-friendly structure**.
-You can easily customize colors, layouts and components.
-
-Using TailwindCSS makes it simple to:
-
-• Change colors and styles
-• Modify layouts
-• Create new UI components
-• Expand existing pages
-
----
-
-## 📱 Responsive Design
-
-The template is fully responsive and works perfectly on:
-
-• Desktop devices
-• Tablets
-• Mobile phones
-
-Every layout adapts smoothly to different screen sizes.
-
----
-
-## 🎯 Suitable For
-
-KA-Launchly is ideal for:
-
-• Startup websites
-• SaaS platforms
-• AI tools
-• Software products
-• Mobile app landing pages
-• Tech startups
-• Digital product launches
-• Web agencies and developers
-
----
-
-## 📜 License
-
-KA-Launchly is a **free template** provided by Kod Atölye.
-
-You may use this template for **personal and commercial projects**.
-
-However:
-
-• Reselling the template is not allowed
-• Redistributing the template as a product is not allowed
-• Publishing it on other marketplaces is not allowed
-
----
-
-## 🌐 Author
-
-Developed by **Kod Atölye**
-
-Website
-https://kodatolye.com.tr
-
-Demo
-https://demo.kodatolye.com.tr/ka-launchly/
-
----
-
-## ⭐ Support the Project
-
-If you like this template, please consider giving it a **star on GitHub**.
-It helps the project reach more developers and startups.
+- [Sprey Promo](https://www.sprey.win/)
+- [Sprey Processing](https://pay.sprey.win/)
+- [Sprey Registration](https://pay.sprey.win/register)
+- [Sprey Documentation](https://docs.sprey.win/)
+- [Sprey Store](https://sprey.win/store)
+- [GitHub Repository](https://github.com/spreywin/sprey-promo)
