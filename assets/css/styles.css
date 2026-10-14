@@ -241,7 +241,10 @@ button {
       rgba(212, 175, 55, 0.18),
       rgba(22, 166, 106, 0.45)
     );
-  -webkit-mask:
+-webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
