@@ -21,10 +21,10 @@ The project is developed as a lightweight website, with its content, design, and
 | [Sprey Promo](https://www.sprey.win/) | Public website |
 | [Sprey Processing](https://pay.sprey.win/) | Cryptocurrency payment service |
 | [Registration](https://pay.sprey.win/register) | Free account registration |
-| [Sprey Docs](https://docs.sprey.win/) | Documentation and technical resources |
+| [Sprey Docs](https://docs.sprey.win/) | Canonical documentation and technical resources |\n| [Sprey Lab documentation](https://docs.sprey.win/products/sprey-lab/) | Experimental BTCPay applications and verified Lab test scenarios |
 | [Sprey Store](https://sprey.win/store) | Store and additional offerings |
 
-**Sprey Lab** is a separate experimental direction for prototypes and new product ideas. It is not the core Processing service.
+**Sprey Lab** is a separate experimental direction for prototypes and new product ideas, documented separately from the core Processing service. Lab test results do not automatically certify the same workflows for commercial Processing.
 
 ## Technology
 
